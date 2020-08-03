@@ -3,6 +3,7 @@ require 'pry'
 def hello(array)
   i = 0
   collection = []
+  binding.pry
   while i < array.length
     collection << yield(array[i])
     yield(array[i])
